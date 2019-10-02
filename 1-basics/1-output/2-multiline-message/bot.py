@@ -1,0 +1,3 @@
+#Beep is badly damaged - system reboot has been initiated...
+print("System Failure Imminent!")
+print("System reboot has been initiated...")
