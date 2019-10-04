@@ -1,0 +1,23 @@
+#Ask user for eye character 
+print("Please enter eye character")
+eye = input()
+
+#Display an ascii art robot
+print("\n   ***")
+print("  ** **")  
+print(" **   **")
+print(" **   **         **** ")
+print(" **   **       **   ****")
+print(" **  **       *   **   **")
+print("  **  *      *  **  ***  **")
+print("   **  *    *  **     **  *")
+print("    ** **  ** **        **")
+print("    **   **  **")
+print("   *           *")
+print("  *             *")
+print(" *  " + " " + " " + eye + " " + " " + " " + " " + " " + eye + " " + " " + "  *")
+print(" *   /   @   \\   *")
+print(" *   \\__/ \\__/   *")
+print("   *     W     *")
+print("     **     **  ")
+print("       *****")
