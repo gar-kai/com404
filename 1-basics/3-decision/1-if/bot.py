@@ -8,4 +8,3 @@ if (book_type == "adventure"):
 
 # Display message
 print("\nFinished reading book.")
-
