@@ -10,8 +10,10 @@ while cable < user:
     
     print("")
 
-    cable = cable +1
+    cable = cable + 1
 
 if cable == user:
     print("The battery is fully charged.")
+
+
 
