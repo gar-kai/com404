@@ -1,4 +1,3 @@
-# Retrieve size and weight from user
 print("What did I hear?")
 hear = input()
 print("\nWhat did I see?")
