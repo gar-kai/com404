@@ -5,5 +5,7 @@ user= int(input())
 
 count = 1
 while count <= user:
-    print("Avoiding...Done!", str(count), "live cables avoided!")
+    print("\nAvoiding...Done!", str(count), "live cables avoided!")
     count = count + 1
+
+print("\nAll live cables have been avoided.")
