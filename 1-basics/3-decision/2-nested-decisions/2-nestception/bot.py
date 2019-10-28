@@ -1,22 +1,37 @@
-#Beep is looking for his spare battery
-# Ask user where to look
+#Ask user for place
 print("Where should I look?")
+place = input()
 
-# Read user's response
-look = input()
+# Check the bedroom
+if (place == "in the bedroom"):
+    print("Where in the bedroom should I look?")
+    bedroom_place = input()
 
-# Display confirmation message
-print("\nWhere", look + " should I look?")
-look_with = input()
+    if (bedroom_place == "under the bed"):
+        print("Found some shoes but no battery")
+    else:
+        print("Found some mess but no battery.") 
 
-if (look_with == "under the bed"):
-    print("\nFound some shoes but no battery")
+# Check the bathroom
+elif (place == "in the bathroom"):
+    print("Where in the bathroom should I look?")
+    bathroom_place = input()
 
-elif (look_with == "in the bathtub"):
-    print("\nFound a rubber duck but no battery")
+    if (bathroom_place == "in the bathtub"):
+        print("Found a rubber duck but no battery")
+    else:
+        print("Found a wet surface but no battery.")
 
-elif (look_with == "on the table"):
-    print("\nYes! I found my battery!")
+# Check the lab
+elif (place == "in the lab"):
+    print("Where in the lab should I look?")
+    lab_place = input()
 
+    if (lab_place == "on the table"):
+        print("Yes! I found my battery!")
+    else:
+        print("Found some tools but no battery.")
+
+# Handle unknown place
 else:
-     print("\nI do not know where that is but I will keep looking.")
+    print("I am not sure where that place is located.")
