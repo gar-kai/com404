@@ -1,8 +1,10 @@
-# Ask user for number of cables
-print("How many miles must I travel before I reach the secret base?")
-miles =int(input())
+print("How many heroes must we gather?")
+user = int(input())
 
+print("Gathering heroes")
 
-for count in range(miles, 0, -1):
-    print("I have", miles, "to go before I reach the base.")
-    miles =miles -1
+heroes = 1
+while heroes <= user:
+    print("...Found hero", str(heroes))
+    heroes = heroes +1
+
