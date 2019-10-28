@@ -1,11 +1,17 @@
-#allows Beep to avoid live cables
 
+# Ask user for number of cables
 print("How many live cables should I avoid?")
-user= int(input())
+cables_to_avoid = int(input())
 
-count = 1
-while count <= user:
-    print("\nAvoiding...Done!", str(count), "live cables avoided!")
-    count = count + 1
+# Declare a control variable
+cables_avoided = 0
 
-print("\nAll live cables have been avoided.")
+# Avoid cables
+print()
+
+while (cables_avoided < cables_to_avoid):
+    print("Avoiding...", end="")
+    cables_avoided = cables_avoided + 1
+    print("Done!", cables_avoided, "cables avoided.")
+
+print("All live cables have been avoided.")

@@ -1,19 +1,15 @@
-#display a message
+# Ask user for number of bars
 print("How many bars should be charged?")
-user = int(input())
+bars_to_charge = int(input())
 
-cable=0
-while cable < user:
-    print("\nCharging:", end ="")
-    for count in range (0,cable, 1):
-        print( "█ ", end ="")
+# Declare a control variable
+bars_charged = 0
+
+# Display bars
+print()
+
+while (bars_charged < bars_to_charge):
+    bars_charged = bars_charged + 1
+    print("Charging:", "█" * bars_charged)
     
-    print("")
-
-    cable = cable + 1
-
-if cable == user:
-    print("The battery is fully charged.")
-
-
-
+print("The battery is fully charged.")  
