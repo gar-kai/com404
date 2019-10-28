@@ -1,17 +1,3 @@
-def under(words):
-    print(word)
-    line = ""
-    for num in range(0,len(word)):
-        line = line + "*"
-    print(line)
+import functions as fun
 
-def over(word):
-    line = ""
-    for num in range(0, len(word)):
-        line = line + "*"
-    print(word)
-
-def both(word):
-    line = ""
-    for num in range(0,len(word)):
-        line = line + "*"
+fun.options()
