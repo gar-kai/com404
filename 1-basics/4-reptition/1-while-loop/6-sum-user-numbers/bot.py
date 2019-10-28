@@ -1,14 +1,21 @@
-#Bop retrieve some numbers and calculate their sum
+# Ask user for number
+print("How many numbers should I sum up?")
+number_to_sum = int(input())
 
-notoadd=int(input("How many numbers should I sum up?"))
+# Declare a control variable
+summed = 0
 
-numberadding=0
-sum=0
-temp=0
-while numberadding < notoadd:
-    for count in range (1, notoadd+1,1):
-         print("Please enter number "+ str(count)+ "of" + str(notoadd))
-         temp = int(input())
-         sum = sum + temp
-         
-    print("The answer is" +str(sum))
+# Display blank line
+print()
+
+# Sum numbers
+total = 0
+
+while (summed < number_to_sum):
+    print("Please enter number", summed, "of", number_to_sum, ":")
+    number = int(input())
+    total = total + number
+    summed = summed + 1
+
+# Display result
+print("The answer is", total)
