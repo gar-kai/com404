@@ -1,3 +1,3 @@
-import functions as fun
+import functions as hard
 
-fun.options()
+hard.run()
