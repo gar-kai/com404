@@ -1,11 +1,12 @@
 #Beep is learning about mathematical operators
 print("Please enter the first number")
-number=(input())
+number=int(input())
 print("Please enter the second number")
-number2=(input())
+number2=int(input())
+
 if(number<number2):
     print("The first number is the smallest!")
-if(number2<number):
+elif(number >number2):
     print("The second number is the smallest!")
-if(number==number2):
-    print("Both are equal!")
+else:
+    print("Both are equal!") 
