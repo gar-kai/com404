@@ -1,11 +1,10 @@
-# Ask user for distance
-print("How far are we from the cave?")
-distance = int(input())
+print("How many heroes must we gather?")
+user = int(input())
 
-# Display count down
-print()
+print("Gathering heroes")
 
-for count in range(distance, 0, 1):
-    print(count, "steps remaining")
+heroes = 1
+while heroes <= user:
+    print("...Found hero", str(heroes))
+    heroes = heroes +1
 
-print("We have reached the cave!")
