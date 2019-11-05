@@ -2,20 +2,20 @@ def under(word):
     print(word)
     line = ""
     for num in range(0,len(word)):
-        line = line + "*"
+        line = line + "//"
     print(line)
 
 def over(word):
     line = ""
     for num in range(0, len(word)):
-        line = line + "*"
+        line = line + "//"
     print(line)
     print(word)
 
 def both(word):
     line = ""
     for num in range(0,len(word)):
-        line = line + "*"
+        line = line + "//"
     print(line)
     print(word)
     print(line)
@@ -27,7 +27,7 @@ def grid(word, size):
 
     LineLong = ""
     for number1 in range(0,len,word):
-        Line = Line + "*"
+        Line = Line + "//"
     
     for number2 in range(0,size):
         LineLong = LineLong + Line +"    "
