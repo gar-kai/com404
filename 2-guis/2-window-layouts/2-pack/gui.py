@@ -21,8 +21,6 @@ class Gui(Tk):
         
 
 
-
-
     def add_heading_label(self):
         # create   
         self.heading_label = Label()
